@@ -131,7 +131,7 @@ public class Discount {
     public String toString() {
         DecimalFormat df=new DecimalFormat("###.##");
         return "\nCard: "+card+System.lineSeparator()+"\nPurchase value: $"+purchaseValue+System.lineSeparator()+"\nDiscount rate: "+discountRate+"%"+System.lineSeparator()
-                +"\nDiscount: $"+df.format(discount)+System.lineSeparator()+"\nTotal: $"+total;
+                +"\nDiscount: $"+df.format(discount)+System.lineSeparator()+"\nTotal: $"+df.format(total);
     }
     
 }
